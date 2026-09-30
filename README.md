@@ -1,5 +1,11 @@
 # Multi-Agent Travel Planning System — LangGraph + MCP + Supervisor + Guardrails + Human-in-the-Loop
 
+![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)
+![LangGraph](https://img.shields.io/badge/Orchestration-LangGraph-1C3C3C)
+![MCP](https://img.shields.io/badge/Tools-MCP-6F42C1)
+![Docker](https://img.shields.io/badge/Deploy-Docker-2496ED?logo=docker&logoColor=white)
+![Status](https://img.shields.io/badge/status-active%20development-orange)
+
 A real-world multi-agent travel planner built with **LangGraph**. A supervisor agent validates the
 request, decides which specialist agents to run, and routes work through them. Live data comes from
 three **MCP servers** (Tavily, AviationStack, OpenWeatherMap). The draft itinerary is paused for
